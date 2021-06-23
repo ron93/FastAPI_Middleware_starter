@@ -1,10 +1,12 @@
 .toolbar{
     height: 50px;
     background-color: #009879;
-
+    margin-bottom: 10px;
 }
 
 /* documents list */
+
+/*  */
 .styled-table {
     border-collapse: collapse;
     margin: 25px 0;
@@ -52,11 +54,11 @@
 }
 
 .searchTerm {
-  width: 100%;
+  width: 50%;
   border: 3px solid #00B4CC;
   border-right: none;
   padding: 5px;
-  height: 20px;
+  height: 36px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
@@ -80,7 +82,8 @@
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  /* width: 50%; */
+  width: 100%;
+  
   /* position: absolute; */
   /* top: 50%; */
   /* left: 50%; */
